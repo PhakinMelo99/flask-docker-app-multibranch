@@ -41,7 +41,7 @@ on:
 
 # กำหนด Environment Variables ระดับ Workflow
 env:
-  DOCKER_REPO: iamsamitdev/flask-docker-app
+  DOCKER_REPO: phakinzaza135/flask-docker-app
   DEV_APP_NAME: flask-app-dev
   DEV_HOST_PORT: 5001
   PROD_APP_NAME: flask-app-prod
