@@ -8,7 +8,7 @@ def hello():
 
 @app.route('/api/goodbye', methods=['GET'])
 def goodbye():
-    return jsonify({"message": "Goodbye from Flask API!"})
+    return jsonify({"message": "Goodbye from Flask API! phakinzaza135"})
 
 # เพิ่ม endpoint ใหม่สำหรับทดสอบ
 @app.route('/api/users', methods=['GET'])
