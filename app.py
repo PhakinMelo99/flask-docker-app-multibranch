@@ -8,7 +8,7 @@ def hello():
 
 @app.route('/api/goodbye', methods=['GET'])
 def goodbye():
-    return jsonify({"message": "Goodbye from Flask API!"})
+    return jsonify({"message": "Goodbye from Flask API! phakinzaza135"})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
